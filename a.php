@@ -1,5 +1,6 @@
 <?php 
 	echo "a phpProject";
- 	echo "";
- 	echo "";
+ 	//variavel d ambiente
+ 	$num = 10;
+ 	
  ?>
