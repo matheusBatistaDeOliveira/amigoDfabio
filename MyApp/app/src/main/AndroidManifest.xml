@@ -12,9 +12,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CadastrarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EsqueciMinhaSenhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewSplashActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
-            android:exported="true"
-            android:theme="@style/Theme.MyApp" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +37,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
