@@ -1,9 +1,14 @@
 <?php 
-$num1=10;
-$num2=20;
+	$data="20 de agosto de 2020";	//string
+	$salario=850.00;				//float or double
+	$cargo="Estagiário";			//string
+	$idade=18;						//integer ou int
+	$resultado=true; 				//boolean
 
-$resp=$num1+$num2;
+	if($resultado){
+		echo "Verdadeiro";
+		print("<br/> Data: $data <br/> Salário: $salario <br/> Cargo: $cargo <br/> Idade: $idade <br/>");
+	}
 
 
-echo "A soma de $num1 e $num2  resulta: . $resp";
  ?>
