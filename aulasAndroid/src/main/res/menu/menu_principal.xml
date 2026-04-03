@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/mPrincipalArchive"
+            android:icon="@drawable/baseline_insert_drive_file"
+            android:title="Archive"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/mPrincipalChange"
+            android:icon="@drawable/baseline_drive_file_rename_outline"
+            android:title="Change"
+            app:showAsAction="withText" />
+
+        <item
+            android:id="@+id/mPrincipalSave"
+            android:icon="@drawable/baseline_unarchiveeclue"
+            android:title="Save"
+            app:showAsAction="withText" />
+
+        <item
+            android:id="@+id/mPrincipalDelete"
+            android:icon="@drawable/baseline_restore_from_trash"
+            android:title="Delete"
+            app:showAsAction="always"
+
+            />
+    </group>
+    <group>
+        <item
+            android:id="@+id/mPrincipalTwoa"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Help Desk"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/mPrincipalTwob"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Erro 404"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

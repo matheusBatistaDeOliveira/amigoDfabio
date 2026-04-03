@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="500dp"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/comp1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#000" />
+
+    <View
+        android:id="@+id/comp2"
+        android:layout_below="@+id/comp1"
+        android:layout_toRightOf="@+id/comp1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FF0000" />
+
+    <View
+        android:id="@+id/comp3"
+        android:layout_toRightOf="@+id/comp2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#D4B100" />
+
+    <View
+        android:id="@+id/comp4"
+        android:layout_toRightOf="@+id/comp2"
+        android:layout_below="@+id/comp2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#00BCD4" />
+
+    <View
+        android:id="@+id/comp5"
+        android:layout_toLeftOf="@+id/comp2"
+        android:layout_below="@+id/comp2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#C624DE" />
+
+
+</RelativeLayout>
