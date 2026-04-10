@@ -1,0 +1,55 @@
+        EXEMPLO
+
+        <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        -------------------------------
+
+        PASSOS
+        ----------
+        PASSO 1: Transformar o fechamento "/>" do activity em ></activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+
+        ----------
+        PASSO 2: deixar 'android:exported="false">' como true
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+
+
+        </activity>
+        ----------
+        PASSO 3: Recortar e colar esta tag
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        ----------
+        PASSO 4: Colar esta tag dentro da Activity alvo
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+
+        </activity>
+
