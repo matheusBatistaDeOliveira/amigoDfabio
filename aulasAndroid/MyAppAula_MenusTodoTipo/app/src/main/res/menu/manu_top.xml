@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/baseline_save"
+        android:title="Salvar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mMarcar"
+        android:icon="@drawable/baseline_bookmark"
+        android:title="Atualizar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mEditar"
+        android:icon="@drawable/baseline_edit"
+        android:title="Editar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/baseline_restore_from_trash"
+        android:title="Excluir"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mFav"
+        android:title="Favorito"
+        android:icon="@drawable/baseline_star"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mRecentes"
+        android:title="Recentes"
+        android:icon="@drawable/baseline_access_time"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mArquivos"
+        android:title="Arquivos"
+        android:icon="@drawable/baseline_unarchive"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mAcessibilidade"
+        android:title="Acessibilidade"
+        android:icon="@drawable/baseline_accessibility"
+        app:showAsAction="ifRoom" />
+
+</menu>
